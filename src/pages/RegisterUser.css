@@ -1,0 +1,56 @@
+.register-container {
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  width: 90%;
+  max-width: 500px;
+}
+
+.register-title {
+  text-align: center;
+  color: #002366; /* azul corporativo */
+  margin-bottom: 20px;
+}
+
+.register-form label {
+  display: block;
+  margin-top: 15px;
+  font-weight: bold;
+  color: #000000; /* negro */
+}
+
+.register-input,
+.register-select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #002366;
+  border-radius: 6px;
+  font-size: 16px;
+  box-sizing: border-box;
+}
+
+.register-button {
+  background-color: #002366;
+  color: #ffffff;
+  border: none;
+  border-radius: 6px;
+  padding: 12px;
+  width: 100%;
+  margin-top: 25px;
+  cursor: pointer;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.register-button:hover {
+  background-color: #00164d; /* azul más oscuro */
+}
+
+.register-error {
+  color: red;
+  margin-top: 15px;
+  font-weight: bold;
+  text-align: center;
+}
