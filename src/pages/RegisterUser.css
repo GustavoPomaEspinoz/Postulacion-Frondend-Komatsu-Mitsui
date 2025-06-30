@@ -9,7 +9,7 @@
 
 .register-title {
   text-align: center;
-  color: #002366; /* azul corporativo */
+  color: #002366; 
   margin-bottom: 20px;
 }
 
@@ -17,7 +17,7 @@
   display: block;
   margin-top: 15px;
   font-weight: bold;
-  color: #000000; /* negro */
+  color: #000000; 
 }
 
 .register-input,
@@ -45,7 +45,7 @@
 }
 
 .register-button:hover {
-  background-color: #00164d; /* azul más oscuro */
+  background-color: #00164d; 
 }
 
 .register-error {
