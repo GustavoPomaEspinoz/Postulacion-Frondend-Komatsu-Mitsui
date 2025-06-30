@@ -1,10 +1,10 @@
 import React, { useState } from 'react';
-import { useNavigate } from 'react-router-dom'; // <-- IMPORTA AQUÍ
+import { useNavigate } from 'react-router-dom'; 
 import Modal from '../components/Modal';
 import './RegisterUser.css';
 
 const RegisterUser = () => {
-  const navigate = useNavigate(); // <-- INICIALIZA AQUÍ
+  const navigate = useNavigate();
   const [dni, setDni] = useState('');
   const [nombre, setNombre] = useState('');
   const [tipoUsuario, setTipoUsuario] = useState('Admin');
