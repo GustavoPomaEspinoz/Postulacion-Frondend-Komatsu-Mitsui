@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { useNavigate } from 'react-router-dom'; // 👈 necesitas esto para redirigir
+import { useNavigate } from 'react-router-dom'; 
 import './Dashboard.css';
 
 const Dashboard = () => {
@@ -15,7 +15,7 @@ const Dashboard = () => {
   const [selectedOrders, setSelectedOrders] = useState([]);
   const [selectedInProcessOrders, setSelectedInProcessOrders] = useState([]);
 
-  const navigate = useNavigate(); // 👈 hook para redirección
+  const navigate = useNavigate(); 
 
   const fetchOrdenes = async () => {
     try {
@@ -226,7 +226,7 @@ const Dashboard = () => {
         </div>
       </div>
 
-      {/* Tu modal de creación */}
+
       {showModal && (
         <div className="modal-overlay">
           <div className="modal-content">
@@ -275,7 +275,6 @@ const Dashboard = () => {
         </div>
       )}
 
-      {/* Tu modal de selección de tipo */}
       {showTypeModal && (
         <div className="modal-overlay">
           <div className="modal-content">
